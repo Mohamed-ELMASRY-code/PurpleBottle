@@ -26,7 +26,11 @@
   font-size: 1.75rem;
   letter-spacing: 3px;
 }
+.navbar-toggler  { 
+   border: none !important;  
+  }
 body {
+
     background-image:linear-gradient(to right, rgba(239, 205, 250, 0.89), rgb(227, 167, 247), rgb(221, 136, 250), rgb(210, 110, 243));;
     /* padding-top: 56px; */
     /* height: 50000px; */
@@ -82,7 +86,10 @@ body {
     color: #A020F0;
 
 }
+.divcontent{
+  background-image:linear-gradient(to right, rgba(235, 196, 248, 0.89), rgb(226, 165, 246), rgb(215, 128, 245), rgb(209, 103, 245));;
 
+}
 @keyframes dash {
     to {
       stroke-dashoffset: 0;
