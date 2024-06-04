@@ -31,10 +31,11 @@
   }
 body {
 
-    background-image:linear-gradient(to right, rgba(239, 205, 250, 0.89), rgb(227, 167, 247), rgb(221, 136, 250), rgb(210, 110, 243));;
+    background-image:linear-gradient(to right, rgba(239, 205, 250, 0.89), rgb(227, 167, 247),rgba(239, 205, 250, 0.89));;
     /* padding-top: 56px; */
     /* height: 50000px; */
-    
+    /* background-image:linear-gradient(to right, rgba(239, 205, 250, 0.89), rgb(227, 167, 247), rgb(221, 136, 250), rgb(210, 110, 243));; */
+
 }
 .row{
     box-sizing: border-box;
@@ -86,10 +87,10 @@ body {
     color: #A020F0;
 
 }
-.divcontent{
+/* .divcontent{
   background-image:linear-gradient(to right, rgba(235, 196, 248, 0.89), rgb(226, 165, 246), rgb(215, 128, 245), rgb(209, 103, 245));;
 
-}
+} */
 @keyframes dash {
     to {
       stroke-dashoffset: 0;
@@ -100,3 +101,19 @@ body {
     0%, 80% { fill:  #6c0575; fill-opacity: 0; }
     80%, 100% { fill:   rgb(227, 167, 247); fill-opacity: 1; }
   }
+.mx6{
+  margin: 6rem  !important;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: transparent;
+
+}
+.divtextcontent{
+  display: flex; 
+	justify-content: center; 
+	align-items: center;
+}
+.scrolled{
+  background-image:linear-gradient(to right, rgba(239, 205, 250, 0.89), rgb(227, 167, 247), rgba(239, 205, 250, 0.89)) !important ;;
+}
