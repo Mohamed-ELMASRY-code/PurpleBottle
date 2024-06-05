@@ -35,6 +35,7 @@ body {
 
     background-image:linear-gradient(to right, #f1aef9, #9b9bf2,#f1aef9);
     font-family: 'Helvetica', 'Arial', sans-serif;
+    color:#263281;
 
     /* padding-top: 56px; */
     /* height: 50000px; */
@@ -132,4 +133,22 @@ p.textfont {
 p.textfont {
     font-size: 2vw;
   }
+}
+a{
+  color: #263281 !important;
+}
+a:hover {
+  color:#4256d5!important;
+
+}
+span{
+  color:#263281;
+}
+.stock-p-tag{
+  padding: 0% !important;
+  margin: 0% !important;
+
+}
+p{
+  color:#263281;
 }
