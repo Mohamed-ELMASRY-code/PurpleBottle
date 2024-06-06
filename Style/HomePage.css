@@ -1,33 +1,7 @@
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
-  color: #fff;
-}
 
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon,
-.navbar-scrolled .navbar-brand {
-  color: #fff;
-}
-
-/* Color of the navbar AFTER scroll */
-.navbar-scroll,
-.navbar-scrolled {
-  background-color: #cbbcb1;
-}
-
-.mask-custom {
-  backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, .15);
-}
-
-.navbar-brand {
-  letter-spacing: 3px;
-}
-.navbar{
+/* .navbar{
   max-height: 100px !important; 
-}
+} */
 .navbar-toggler  { 
    border: none !important;  
   }
@@ -58,6 +32,7 @@ body {
 .TextAnimation{
     /* animation-name: TextAnimation;
     animation-duration: 5s; */
+    /* height: 100%; */
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     animation: dash 6s linear forwards, filling 6s ease-in forwards;
@@ -127,12 +102,14 @@ body {
 p.textfont {
     font-size: 1.3vw;
   }
+  .TextAnimation{
+
+    height:100px ;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-p.textfont {
-    font-size: 2vw;
-  }
+
 }
 a{
   color: #263281 !important;
@@ -151,4 +128,60 @@ span{
 }
 p{
   color:#263281;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  p.textfont {
+    font-size: 2vw;
+  }
+  .TextAnimation{
+
+    height:20px ;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  p.textfont {
+    font-size: 2vw;
+  }
+  .TextAnimation{
+
+    height:20px ;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  p.textfont {
+    font-size: 2vw;
+  }
+  .TextAnimation{
+
+    height:30px ;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  p.textfont {
+    font-size: 1.3vw;
+  }
+  .TextAnimation{
+
+    height:80px ;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  p.textfont {
+    font-size: 1.3vw;
+  }
+  .TextAnimation{
+
+    height:80px ;
+  }
 }
