@@ -2,12 +2,13 @@
 /* .navbar{
   max-height: 100px !important; 
 } */
+
 .navbar-toggler  { 
    border: none !important;  
   }
 body {
 
-    background-image:linear-gradient(to right, #f1aef9, #9b9bf2,#f1aef9);
+    background-image:linear-gradient(to right, #6969c2, #9b9bf2,#c3c3f6);
     font-family: 'Helvetica', 'Arial', sans-serif;
     color:#263281;
 
@@ -67,6 +68,8 @@ body {
     color: #A020F0;
 
 }
+
+
 /* .divcontent{
   background-image:linear-gradient(to right, rgba(235, 196, 248, 0.89), rgb(226, 165, 246), rgb(215, 128, 245), rgb(209, 103, 245));;
 
@@ -95,7 +98,31 @@ body {
 	align-items: center;
 }
 .scrolled{
-  background-image:linear-gradient(to right, #f1aef9, #9b9bf2,#f1aef9) !important ;;
+  background-image:linear-gradient(to right, #6969c2, #9b9bf2,#c3c3f6) !important ;
+}
+
+header.headerContent {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../Images/Bg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+header.headerContent .header-firsttext {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+}
+
+header.headerContent .header-animation {
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -106,6 +133,7 @@ p.textfont {
 
     height:100px ;
   }
+  
 }
 
 @media screen and (max-width: 1024px) {
@@ -114,6 +142,12 @@ p.textfont {
 a{
   color: #263281 !important;
 }
+i{
+  color: #263281 !important;
+
+}
+
+
 a:hover {
   color:#4256d5!important;
 
@@ -129,6 +163,11 @@ span{
 p{
   color:#263281;
 }
+.navbar-toggler{
+  color: #263281 !important;
+}
+
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -139,6 +178,14 @@ p{
   .TextAnimation{
 
     height:20px ;
+  }
+  .navlogo{
+    height:50px ;
+
+  }
+  .navbar{
+    background-image:linear-gradient(to right, #6969c2, #9b9bf2,#c3c3f6) !important ;
+
   }
 }
 
@@ -151,6 +198,11 @@ p{
 
     height:20px ;
   }
+  .navlogo{
+    height:50px ;
+
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -162,6 +214,27 @@ p{
 
     height:30px ;
   }
+
+  .navlogo{
+    height:50px ;
+
+  }
+  header.headerContent {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+}
+
+header.headerContent .header-firsttext {
+  font-size: 2.25rem;
+  font-style: italic;
+  line-height: 2.25rem;
+  margin-bottom: 3rem;
+}
+
+header.headerContent .header-animation {
+
+  margin-bottom: 4rem;
+} 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -173,6 +246,10 @@ p{
 
     height:80px ;
   }
+  .navlogo{
+    height:62px ;
+
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -183,5 +260,9 @@ p{
   .TextAnimation{
 
     height:80px ;
+  }
+  .navlogo{
+    height:62px ;
+
   }
 }
