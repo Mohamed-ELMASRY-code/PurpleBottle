@@ -167,6 +167,58 @@ p{
   color: #263281 !important;
 }
 
+.team-member {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.team-member .member-content {
+  box-shadow: inset 0 0 0 0 #ffe86f;
+  transition: 1s;
+  
+}
+
+.team-member:hover .member-content {
+  box-shadow: inset 550px 0 0 0 rgb(126, 128, 0);
+  color:rgb(147, 26, 115) !important;
+
+}
+.team-member:hover span{
+  color: antiquewhite !important;
+}
+
+.team-member .member-icon {
+  position: absolute;
+  top: 15px;
+  right: -80px;
+  rotate: -30deg;
+  transition: .5s;
+  visibility: hidden;
+}
+
+.team-member:hover .member-icon {
+  visibility: visible;
+  margin-right: 95px;
+  rotate: 0deg;
+}
+
+.team-member .member-icon .btn {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+}
+.btn-primary{
+  background-color: #A020F0 !important;
+}
+.primary{
+  background-color: #263281 !important;
+}
 
 
 
