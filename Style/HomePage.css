@@ -220,6 +220,39 @@ p{
   background-color: #263281 !important;
 }
 
+.contact-title {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  color:  #263281;
+}
+
+/* .contact-title::before {
+  content: "";
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  margin-right: -50px;
+  border: 1px solid  #263281 !important;
+}
+
+.contact-title::after {
+  content: "";
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: -50px;
+  border: 1px solid  #263281  !important;
+} */
+
+.comp-height{
+  min-height: 150px;
+  max-height: 150px;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
