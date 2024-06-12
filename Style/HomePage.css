@@ -125,6 +125,117 @@ header.headerContent .header-animation {
   margin-bottom: 2rem;
 }
 
+.timeline {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+.timeline:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 5px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #263281;
+}
+.timeline > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+.timeline > li:after, .timeline > li:before {
+  display: table;
+  content: " ";
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li .timeline-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li .timeline-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li .timeline-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 5px solid  #263281;
+  border-radius: 100%;
+  background-color:#c3c3f6;
+}
+.timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+  font-size: 28px;
+  line-height: 30px;
+  margin-top: 12px;
+  color: #263281;
+  font-weight: bold;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
+  text-transform: none;
+}
+.timeline .timeline-body > ul,
+.timeline .timeline-body > p {
+  margin-bottom: 0;
+}
+.imagedesign{
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover ;
+}
+
+.centered-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 @media screen and (min-width: 768px) {
 p.textfont {
     font-size: 1.3vw;
@@ -216,6 +327,12 @@ p{
 .btn-primary{
   background-color: #A020F0 !important;
 }
+.btn-sec{
+  background-color: #ba7ef3 !important;
+}
+.btn-sec:hover{
+  background-color: #A020F0 !important;
+}
 .primary{
   background-color: #263281 !important;
 }
@@ -248,12 +365,30 @@ p{
   margin-left: -50px;
   border: 1px solid  #263281  !important;
 } */
-
-.comp-height{
-  min-height: 150px;
-  max-height: 150px;
+.bg-color{
+  background-color: #9b9bf2 !important;
+}
+.navbar-expand-lg{
+  justify-content: center !important;
 }
 
+
+/*About*/
+.page-section {
+  padding: 6rem 0;
+}
+.page-section h2.section-heading, .page-section .section-heading.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -265,12 +400,16 @@ p{
     height:20px ;
   }
   .navlogo{
-    height:50px ;
+    height:50px ; 
 
   }
   .navbar{
     background-image:linear-gradient(to right, #6969c2, #9b9bf2,#c3c3f6) !important ;
 
+  }
+  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 
@@ -286,6 +425,10 @@ p{
   .navlogo{
     height:50px ;
 
+  }
+  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+    font-size: 12px;
+    line-height: 14px;
   }
 
 }
@@ -320,6 +463,37 @@ header.headerContent .header-animation {
 
   margin-bottom: 4rem;
 } 
+
+.timeline:before {
+  left: 50%;
+}
+.timeline > li {
+  min-height: 100px;
+  margin-bottom: 100px;
+}
+.timeline > li .timeline-panel {
+  float: left;
+  width: 41%;
+  padding: 0 20px 20px 30px;
+  text-align: right;
+}
+.timeline > li .timeline-image {
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+}
+.timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+  font-size: 13px;
+  line-height: 18px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  padding: 0 30px 20px 20px;
+  text-align: left;
+}
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -335,6 +509,26 @@ header.headerContent .header-animation {
     height:62px ;
 
   }
+
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -349,5 +543,24 @@ header.headerContent .header-animation {
   .navlogo{
     height:62px ;
 
+  }
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+
+  .centered-icon> i{
+    font-size: 4rem !important;
   }
 }
