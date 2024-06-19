@@ -39,7 +39,6 @@ body {
     animation: dash 6s linear forwards, filling 6s ease-in forwards;
     animation-delay: -1s;
     animation-iteration-count: infinite;
-    font-size:3.8vw;
 
 
 }
@@ -114,12 +113,7 @@ header.headerContent {
   
 }
 
-header.headerContent .header-firsttext {
-  font-size: 1.5rem;
-  font-style: italic;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-}
+
 
 header.headerContent .header-animation {
   margin-bottom: 2rem;
@@ -373,9 +367,11 @@ p{
 }
 
 
-/*About*/
 .page-section {
-  padding: 6rem 0;
+  padding: 6rem 0 1rem;
+}
+.page-section-Team {
+  padding: 1rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -396,8 +392,9 @@ p{
     font-size: 2vw;
   }
   .TextAnimation{
-
-    height:20px ;
+    font-size:1.5rem;
+    width: 100%;
+    height:1.5rem ;
   }
   .navlogo{
     height:50px ; 
@@ -411,6 +408,15 @@ p{
     font-size: 12px;
     line-height: 14px;
   }
+  header.headerContent .header-firsttext {
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 2.5rem;
+    /* margin-bottom: 25px; */
+  }
+  .centered-icon> i{
+    font-size: 2.5rem !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -419,8 +425,9 @@ p{
     font-size: 2vw;
   }
   .TextAnimation{
-
-    height:20px ;
+    font-size:1.5rem;
+    width: 100%;
+    height:1.5rem ;
   }
   .navlogo{
     height:50px ;
@@ -430,7 +437,15 @@ p{
     font-size: 12px;
     line-height: 14px;
   }
-
+  header.headerContent .header-firsttext {
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 2.5rem;
+    /* margin-bottom: 25px; */
+  }
+  .centered-icon> i{
+    font-size: 2.5rem !important;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -440,7 +455,9 @@ p{
   }
   .TextAnimation{
 
-    height:30px ;
+    height:5.5rem ;
+    font-size:3.5rem;
+    width: 107% ;
   }
 
   .navlogo{
@@ -453,9 +470,9 @@ p{
 }
 
 header.headerContent .header-firsttext {
-  font-size: 2.25rem;
+  font-size: 3.75rem;
   font-style: italic;
-  line-height: 2.25rem;
+  line-height: 4.5rem;
   margin-bottom: 3rem;
 }
 
@@ -504,6 +521,10 @@ header.headerContent .header-animation {
   .TextAnimation{
 
     height:80px ;
+    font-size:3.75rem;
+    width: 80% ;
+
+
   }
   .navlogo{
     height:62px ;
@@ -527,6 +548,15 @@ header.headerContent .header-animation {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
+  }
+  header.headerContent .header-firsttext {
+    font-size: 3.75rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 3rem;
+  }
+  .centered-icon> i{
+    font-size: 4rem !important;
   }
 
 }
