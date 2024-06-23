@@ -221,6 +221,16 @@ header.headerContent .header-animation {
   width: 100% !important;
   object-fit: cover ;
 }
+.image-design-foater{
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: contain ;
+}
+.image-design-team{
+  height: 80% !important;
+  width: 100% !important;
+  object-fit: contain ;
+}
 
 .centered-icon{
   display: flex;
@@ -328,7 +338,7 @@ p{
   background-color: #A020F0 !important;
 }
 .primary{
-  background-color: #263281 !important;
+  background-color: #a6a7ab !important;
 }
 
 .contact-title {
@@ -386,6 +396,30 @@ p{
   margin-bottom: 4rem;
 }
 
+
+.btn-social {
+  width: 36px !important;
+  height: 36px !important;
+  padding-left: 0 !important ;
+  padding-right: 0 !important;
+  text-align: center !important;
+  border-radius: 36px !important;
+}
+.btn-outline-light {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.link-design {
+  color: #FF4800;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.link-design:hover {
+  color: #ab1075 !important;
+  text-decoration: underline;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   p.textfont {
