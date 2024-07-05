@@ -8,7 +8,8 @@
   }
 body {
 
-    background-image:linear-gradient(to right, #6969c2, #9b9bf2,#c3c3f6);
+    /* background-image:linear-gradient(to right, #6969c2, #9b9bf2,#c3c3f6); */
+    background-color: rgb(243, 232, 245);
     font-family: 'Helvetica', 'Arial', sans-serif;
     color:#263281;
 
@@ -500,7 +501,7 @@ p{
 
   }
   header.headerContent {
-    padding-top: 17rem;
+    padding-top: 21rem;
     padding-bottom: 12.5rem;
 }
 
@@ -587,7 +588,7 @@ header.headerContent .header-animation {
   header.headerContent .header-firsttext {
     font-size: 3.75rem;
     font-style: italic;
-    line-height: 2.25rem;
+    /* line-height: 2.25rem; */
     margin-bottom: 3rem;
   }
   .centered-icon> i{
