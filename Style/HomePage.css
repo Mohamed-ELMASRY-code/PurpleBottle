@@ -422,6 +422,21 @@ p{
   color: #ab1075 !important;
   text-decoration: underline;
 }
+
+.bg-about-us {
+  background-color: #fcf7fc !important;
+}
+
+.py-7 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+.bg-about-us-primary{
+  background-image: url("../Images/AboutUsBg.jpeg");
+}
+.pt-6 {
+  padding-top: 4rem !important;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   p.textfont {
@@ -482,6 +497,10 @@ p{
   .centered-icon> i{
     font-size: 2.5rem !important;
   }
+  .px-sm-7 {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -501,7 +520,7 @@ p{
 
   }
   header.headerContent {
-    padding-top: 21rem;
+    padding-top: 31rem;
     padding-bottom: 12.5rem;
 }
 
