@@ -11,7 +11,12 @@
 /* .navbar{
   max-height: 100px !important; 
 } */
-
+ .main-color{
+  color: var(--dblue) !important;
+ }
+.place-holder-label-color{
+color:var(--dblue) !important;
+}
 .navbar-toggler {
   border: none !important;
 }
@@ -351,7 +356,7 @@ p {
 }
 
 .team-member .member-content {
-  box-shadow: inset 0 0 0 0 #ffe86f;
+  box-shadow: inset 0 0 0 0 #63019c;
   transition: 1s;
   background-color: var(--dblue);
 }
@@ -426,7 +431,7 @@ p {
 .contact-title {
   position: relative;
   display: inline-block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #263281;
 }
 
@@ -452,7 +457,7 @@ p {
   border: 1px solid  #263281  !important;
 } */
 .bg-color {
-  background-color: #9b9bf2 !important;
+  background-color: var(--dblue) !important;
 }
 
 .navbar-expand-lg {
@@ -500,20 +505,22 @@ p {
 }
 
 .link-design {
-  color: #FF4800;
+  color:var(--dblue);
   text-decoration: none;
   background-color: transparent;
 }
 
 .link-design:hover {
-  color: #ab1075 !important;
+  color:var(--dpurple) !important;
   text-decoration: underline;
 }
 
 .bg-about-us {
   background-color: #fff4f4 !important;
 }
-
+.bg-team{
+  background-color: aliceblue;
+}
 .py-7 {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
@@ -552,7 +559,24 @@ p {
   color: var(--dpink);
 }
 
+.services {
+  border-radius: 25px !important;
+}
+.services img{
 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.btn-sec:hover{
+  background-color: white !important;
+  color: #263181 !important;
+}
+.btn-sec{
+  background-color: var(--dpink) !important;
+  color: var(--dblue) !important;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -572,8 +596,8 @@ p {
   }
 
   .navbar {
-    background-image: linear-gradient(to right, #6969c2, #9b9bf2, #c3c3f6) !important;
-
+    /* background-image: linear-gradient(to right, #6969c2, #9b9bf2, #c3c3f6) !important; */
+background-color: white;
   }
 
   .timeline>li .timeline-image h4,
@@ -758,6 +782,10 @@ p {
     margin-bottom: 3rem;
   }
 
+  header.headerContent {
+    padding-top: 25rem;
+    padding-bottom: 18.5rem;
+  }
   .centered-icon>i {
     font-size: 4rem !important;
   }
