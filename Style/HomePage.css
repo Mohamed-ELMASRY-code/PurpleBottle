@@ -459,6 +459,9 @@ p {
 .bg-color {
   background-color: var(--dblue) !important;
 }
+.contact-us-bg{
+  background-image: url("../Images/ContactUsBg.jpeg");;
+}
 
 .navbar-expand-lg {
   justify-content: center !important;
